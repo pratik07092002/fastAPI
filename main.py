@@ -6,29 +6,31 @@ app = FastAPI()
 # Sample data for each endpoint
 data = {
     "api1": {
-        "text1": "Welcome to API 1!",
-        "text2": "This is the first value",
-        "text3": "This is a description for API 1",
-        "text4": "Here is some more info on API 1"
+        "text1": "Virat Kohli",
+        "text2": "Rohit Sharma",
+        "text3": "MS Dhoni",
+        "text4": "R. Ashwin"
     },
     "api2": {
-        "text1": "Welcome to API 2!",
-        "text2": "This is the second value",
-        "text3": "This is a description for API 2",
-        "text4": "Here is some more info on API 2"
+        "text1": "Lionel Messi",
+        "text2": "Cristiano Ronaldo",
+        "text3": "Neymar jr",
+        "text4": "Iniesta"
     },
-    "api3": {
-        "text1": "Welcome to API 3!",
-        "text2": "This is the third value",
-        "text3": "This is a description for API 3",
-        "text4": "Here is some more info on API 3"
-    },
-    "api4": {
-        "text1": "Welcome to API 4!",
-        "text2": "This is the fourth value",
-        "text3": "This is a description for API 4",
-        "text4": "Here is some more info on API 4"
-    }
+   "api3": {
+    "text1": "Roger Federer",
+    "text2": "Rafael Nadal",
+    "text3": "Novak Djokovic",
+    "text4": "Serena Williams"
+}
+,
+   "api4": {
+    "text1": "Michael Jordan",
+    "text2": "LeBron James",
+    "text3": "Kobe Bryant",
+    "text4": "Stephen Curry"
+}
+
 }
 
 # API 1: Returns 4 different text values
